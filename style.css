@@ -90,14 +90,53 @@ body{
 }
 
 .hero-section-para{
+    outline: 1px solid black;
     margin: 40px 0;
-    background-color: #F3F3F3;
+    background-color: silver;
 }
 
-.hero-section-para .content-max-width p{
-    max-width:300px ;
-    font-size: 13px;
+.hero-section-para-container .circle-icons i{
+    font-size: 30px;
+    color: rgb(199, 199, 55);
+
 }
+
+.hero-section-para-container .column-1-content .display{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.column-2-content .display-flex-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-section-para-container .column-2-content .circle-icons-2 i{
+    font-size: 30px;
+    color: rgb(199, 199, 55);
+}
+
+.column-3-content .display-flex-3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.column-3-content .circle-icons-3 i{
+    font-size: 30px;
+    color: rgb(199, 199, 55);
+}
+
+/* .column-1-content .display h2{
+} */
+
+
+
+
+
+
 
 
 
