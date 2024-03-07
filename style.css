@@ -247,11 +247,45 @@ body{
 }
 
 /* forth section */
-.forth-section img{
+.forth-section .image-3{
+    position: relative;
+    background-image:
+    linear-gradient(to right, rgba(255, 207, 35, 70%) , rgba(255, 207, 35, 50%) ),
+    url('images/cta (2).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 620px;
+    height: 620px; 
 }
 
+/* .forth-section img{
+    width: 100%;
+    height: 620px;
+    background-size: cover;
+
+} */
+
+.forth-section .forth-section-content{
+    position: absolute;
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.forth-section .forth-section-content h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.forth-section .forth-section-content h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.forth-section .forth-section-content span{
+    display: block;
+}
 
 
 
