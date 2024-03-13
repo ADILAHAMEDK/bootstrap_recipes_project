@@ -32,23 +32,33 @@ body{
     box-shadow: 1px 1px 2px 1px  rgb(200, 198, 198);
 }
 
-/* hero section */
-.hero-section{
-    max-height: 100vh; 
+.main-div-hero-section{
+    overflow: hidden;
 }
 
-.hero-section .hero-section-text{
+/* .hero-section .image img{
+    width: 100%;
+    height: 390px;
+    border-radius: 10px;
+} */
+
+/* hero section  */
+/* .hero-section{
+    max-height: 100vh; 
+} */
+
+/* .hero-section .hero-section-text{
     margin-top: 100px;
-}
+} */
 
 .hero-section h1{
     font-size: 50px;
     font-weight: 700;
 }
 
-.hero-section span{
+/* .hero-section span{
     display: block;
-}
+} */
 
 .hero-section h3{
     font-size: 24px;
@@ -70,32 +80,33 @@ body{
     font-size: 13px;
 }
 
-.hero-section p span{
+/* .hero-section p span{
     display: block;
-}
+} */
 
 .hero-section .image img{
-    width: 600px;
+    width: 100%;
     height: 390px;
     border-radius: 10px;
 }
 
-.hero-section .image{
+ /* .hero-section .image{
     margin-top: 50px;
-}
+}  */
 
-.hero-section-content-container{
+/* hero section card */
+ .hero-section-content-container{
     margin-top: 50px;
     background-color: #F3F3F3;
-}
+} 
 
-.hero-section-three-content{
+ .hero-section-three-content{
     padding: 50px 0 22px;
-}
+} 
 
-.hero-section-three-content .column-1-content .display-flex-1{
-    /* display: flex;
-    align-items: center; */
+ .hero-section-three-content .column-1-content .display-flex-1{ 
+    display: flex ;
+    align-items: center  ;
     gap: 10px; 
 }
 
@@ -116,10 +127,10 @@ body{
     padding-top: 4px;
 }
 
-.hero-section-three-content .column-2-content .display-flex-2{
-    /* display: flex;
-    align-items: center; */
-    gap: 10px;
+.hero-section-three-content .column-2-content .display-flex-2{ 
+     display: flex;
+    align-items: center ;
+     gap: 10px;
 }
 
 .hero-section-three-content .column-2-content i{
@@ -139,10 +150,10 @@ body{
     padding-top: 4px;
 }
 
-.hero-section-three-content .column-3-content .display-flex-3{
-    /* display: flex;
-    align-items: center; */
-    gap: 10px;
+.hero-section-three-content .column-3-content .display-flex-3{ 
+    display: flex; 
+    align-items: center;  
+ gap: 10px;
 }
 
 .hero-section-three-content .column-3-content  i{
@@ -160,7 +171,7 @@ body{
     font-weight: 500;
     max-width: 350px;
     padding-top: 4px;
-}
+} 
 
 /* second section */
 .second-section{
@@ -208,17 +219,20 @@ body{
     font-size: 10px;
 }
 
-/* card section */
+/* third card section */
 .card-section{
     margin: 70px auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .card-section .card-group .card{
     outline: none;
     border: none;
     background-color: #F3F3F3;
-    /* max-width: 320px; */
-    /* height: 300px; */
+    max-width: auto; 
+    height: 300px; 
     border-radius: 8px;
     margin-right: 30px;
 }
@@ -236,7 +250,7 @@ body{
     height: 50px;
     border-radius: 30px;
     background-color: #FFFFFF;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 .card-section .card-group .card .card-body h1{
@@ -244,6 +258,10 @@ body{
     font-weight: 500;
     color: #000000;
     margin: 13px 0 -3px;
+}
+
+.card-section .card-group .card-text{
+    max-width: auto;
 }
 
 /* forth section */
@@ -258,11 +276,10 @@ body{
     height: 620px; 
 }
 
-/* .forth-section img{
+/* .forth-section img{  
     width: 100%;
-    height: 620px;
+    height: 620px ;
     background-size: cover;
-
 } */
 
 .forth-section .forth-section-content{
@@ -300,15 +317,90 @@ body{
 }
 
 /* footer section */
-.footer-section .footer-all-content {
+ .footer-section .footer-all-content{
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 20px;
+    justify-content: center; 
+    flex-wrap: wrap;
+    padding: 90px 0 0 0; 
+    gap: 150px;
     background-color: #000000;
     height: 348px;
     width: 100%;
+    overflow: auto;
 }
+
+.footer-section .footer-all-content .heading h1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;  
+}
+
+.footer-section .footer-all-content .first-column h1{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+} 
+
+.footer-section .footer-all-content .first-column h6{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-section .footer-all-content .second-column h1{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-section .footer-all-content .second-column h6{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.footer-section .footer-all-content .third-column h1{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-section .footer-all-content .third-column h6{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-section .footer-all-content .fourth-column h1{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-section .footer-all-content .fourth-column form input{
+    background-color: #FFFFFF;
+    opacity: 15%;
+    height: 48px;
+    width: 228px;
+    border-radius: 40px;
+}
+
+::placeholder{
+    color: #0f0202;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.footer-section .footer-all-content .fourth-column p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 228px;
+}
+
+
 
 
 
