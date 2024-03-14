@@ -181,15 +181,15 @@ body{
 }
 
 .second-section img{
-    width: 500px;
-    height: 428px;
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
-.second-section-content{
+/* .second-section-content{
     margin-top: 195px;
-}
+} */
 
 .second-section h1{
     color: white;
@@ -202,8 +202,7 @@ body{
     color: white;
     max-width: 420px;
     font-size: 13px;
-    font-weight: 300;
-    
+    font-weight: 300;   
 }
 
 .second-section .second-section-content .para-margin ul li p{
@@ -265,15 +264,20 @@ body{
 }
 
 /* forth section */
-.forth-section .image-3{
-    position: relative;
+.forth-section{
     background-image:
     linear-gradient(to right, rgba(255, 207, 35, 70%) , rgba(255, 207, 35, 50%) ),
-    url('images/cta (2).jpg');
+    url('images/cta (2).jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.forth-section .image-3{
+    position: relative;
     width: 100%;
-    height: 620px; 
+    height: 620px;
+ 
 }
 
 /* .forth-section img{  
@@ -317,16 +321,16 @@ body{
 }
 
 /* footer section */
+.footer-section{
+    position: relative;
+    background-color: #000000;
+}
+
  .footer-section .footer-all-content{
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
     padding: 90px 0 0 0; 
     gap: 150px;
-    background-color: #000000;
     height: 348px;
     width: 100%;
-    overflow: auto;
 }
 
 .footer-section .footer-all-content .heading h1{
@@ -359,7 +363,6 @@ body{
     font-weight: 300;
 }
 
-
 .footer-section .footer-all-content .third-column h1{
     color: #FFFFFF;
     font-size: 16px;
@@ -384,20 +387,31 @@ body{
     height: 48px;
     width: 228px;
     border-radius: 40px;
+    margin-top: 10px;
 }
 
 ::placeholder{
-    color: #0f0202;
+    color: #de9292;
     font-size: 16px;
     font-weight: 300;
+    font-size: 20px;
+    padding-left: 20px;
+}
 
+.fourth-column i{
+    position: absolute;
+    color: white;
+    bottom: 189px;
+    right: 285px;
+    font-size: 13px;
 }
 
 .footer-section .footer-all-content .fourth-column p{
-    color: #FFFFFF;
+    color: darkgray;
     font-size: 14px;
     font-weight: 300;
     max-width: 228px;
+    margin-top: 10px;
 }
 
 
